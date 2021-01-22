@@ -1,5 +1,4 @@
 @charset "UTF-8";
-
 /* Êîìïîíåíò wis-reset 1.18.1.21  */
 /* Ïîääåðæêà áðàóçåðîâ: IE9+ è îñòàëüíûå áðàóçåðû. Äëÿ IE8 è íèæå ìîæíî ñîçäàòü îòäåëüíûé css, ò.ê. box-sizing: border-box; â íåì ïîääåðæèâàåòñÿ */
 /* Àâòîð: ÂåáÈíôîðìÑåðâèñ (Âèñåðâ) - https://wiserv.ru/ */
@@ -251,7 +250,6 @@ nav {
   font-size: 20px;
   font-family: Candara;
   overflow: hidden;
-  /* max-width: 100%; */
   float: left;
   display: flex;
   justify-content: space-between;
@@ -325,10 +323,8 @@ form {
   width: 294px;
   float: right;
   margin-right: 15px;
-  /*! z-index: 3; */
   margin-top: 10px;
   display: flex;
-  /*! margin: 0 3px; */
 }
 
 form button {
@@ -336,22 +332,18 @@ form button {
   font-family: Candara;
   outline: none;
   padding: 5px 5px 5px 5px;
-  /*! text-align: center; */
 }
 
 input {
   border: none;
   padding: 7px 7px;
-  /*! position: relative; */
   outline: none;
   margin-right: 4px;
 }
 
 input[type='text'] {
   width: 228px;
-
   font-size: 14px;
-  /*! vertical-align: middle; */
 }
 
 button {
@@ -364,7 +356,6 @@ button {
 h2 {
   text-align: center;
   font-size: 26px;
-  /*! margin-top: 15px; */
   margin-bottom: 15px;
   font-family: Century Gothic;
 }
@@ -535,7 +526,6 @@ div.title_hide {
   flex-direction: column;
   width: 350px;
   font-size: 20px;
-  /* position: relative; */
 }
 
 .text {
@@ -576,13 +566,11 @@ div.title_hide {
   border: 3px solid #789915;
 }
 .columns__btn {
-  /* position: absolute;
-  bottom: 0; */
   display: flex;
   justify-content: space-between;
 }
 .autor {
-  padding: 48px;
+  padding: 20px 42px 64px 42px;
   border-top: 1px solid #6c9000;
   border-bottom: 1px solid #6c9000;
   margin-bottom: 22px;
@@ -590,8 +578,6 @@ div.title_hide {
   font-size: 30px;
   text-align: center;
   font-family: Romana-Script;
-  /*! font-weight: normal; */
-  /*! font-style: normal; */
 }
 .autor p {
   font-family: Romana-Script;
@@ -601,7 +587,7 @@ div.title_hide {
   font-family: Calibri;
   font-size: 24px;
   margin-right: 162px;
-  margin-top: 16px;
+  margin-top: 27px;
 }
 
 .footer__links {
@@ -610,7 +596,7 @@ div.title_hide {
   flex-direction: row;
   flex-wrap: wrap;
 
-  padding: 25px;
+  padding: 21px;
   justify-content: space-between;
 }
 
@@ -630,12 +616,7 @@ div.title_hide {
   font-size: 18px;
 }
 
-.footer__links ul:last-child li {
-  /* margin-bottom: 10px; */
-}
-
 .footer__links ul:last-child li a {
-  /* font-size: 20px; */
   color: #3c3c3c;
 }
 
@@ -687,7 +668,7 @@ div.title_hide {
 .heading {
   display: flex;
   justify-content: space-between;
-  font-weight: bold;
+  font-weight: 800;
 }
 .owl-theme .owl-nav .owl-prev span,
 .owl-theme .owl-nav .owl-next span {
