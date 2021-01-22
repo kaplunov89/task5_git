@@ -1,0 +1,33 @@
+@font-face {
+  font-family: 'SegoeUi';
+  src: url('../fonts/SegoeUi.ttf');
+}
+
+@font-face {
+  font-family: 'Candara';
+  src: url('../fonts/Candara.ttf');
+}
+
+@font-face {
+  font-family: 'Century Gothic';
+  src: url('../fonts/Gothic.ttf');
+}
+@font-face {
+  font-family: 'Myriad Pro';
+  src: url('../fonts/MyriadPro.ttf');
+}
+
+@font-face {
+  font-family: 'Calibri';
+  src: url('../fonts/Calibri.ttf');
+}
+
+@font-face {
+  font-family: 'Romana-Script';
+  src: url('../fonts/Romana-Script.ttf');
+}
+
+@font-face {
+  font-family: 'Calibri-Light';
+  src: url('../fonts/Calibri-Light.ttf');
+}
